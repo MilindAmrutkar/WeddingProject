@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Umesh Weds Shubhangi</string>
+    <string name="main_thought">
+        With great joy
+        you are invited to
+        celebrate the marriage of
+        </string>
+
+    <string name="validate">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="homeAddress">Nimisha Pride, A-01, Plot No - 6,7,10,11, Sector -09, New Panvel</string>
+    <string name="marriageLocation">Durvankur Lawns, Behind Raje Shivaji Margdarshan Kendra,Tidke Colony, Bajirao Nagar, Nashik, Maharashtra 422002</string>
+    <string name="receptionLocation">Shree Banquet, Sector 1/s, plot no - 113/114, Behind Shabari Hotel, New Panvel - 410206</string>
+    <string name="bride_details">Hey there, I am Shubhangi Kotkar. I\'m an Engineer by profession and have worked as a Software tester at John Deere for 4 years. My hobbies include reading books, listening to songs and watching movies. I\'m hoping for the best and can\'t wait to see you all at the wedding ceremony. </string>
+    <string name="groom_details">Hi! My name is Umesh Amrutkar. I am a Pharmacist by profession and I\'m currently working at Cognizant as a Medical Coder. My hobbies include singing, listening to songs, reading books and many more. I love to travel a lot and have done several adventurous things which includes Scuba Diving, Parasailing, River Rafting and River Crossing. So let\'s meet up and enjoy at my Wedding Ceremony.  </string>
+    <string name="countdown">There are only</string>
+    <string name="countdownleft">till Wedding</string>
+    <string name="couple_name">Umesh Amrutkar
+        and
+        Shubhangi Kotkar</string>
+
+    <string name="verify_addme">Verify And Add me</string>
+    <string name="relation">Your Relation</string>
+
+
+</resources>

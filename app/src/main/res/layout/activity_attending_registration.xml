@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register_me"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="8dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:orientation="vertical"
+        tools:context="com.example.android.umeshwedsshubhangi.RegisterMe">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* means compulsory" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/textColor"
+            android:text="Please Provide your details"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edtTxtRegisterFirstName"
+                android:textColor="@color/textColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:digits="@string/validate"
+                android:hint="First Name*"
+                android:inputType="textCapSentences" />
+
+            <EditText
+                android:id="@+id/edtTxtRegisterLastName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:digits="@string/validate"
+                android:hint="Last Name*"
+                android:textColor="@color/textColor"
+                android:inputType="textCapSentences" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edtTxtRegisterPhoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/textColor"
+            android:layout_marginTop="10dp"
+
+            android:hint="Phone number*"
+            android:inputType="phone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/textColor"
+            android:hint="Will you be there?"
+            android:textSize="20sp" />
+
+
+        <RadioGroup
+            android:id="@+id/rdGroupRegisterStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rdBtnRegisterYes"
+                android:textColor="@color/textColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="I don't want to miss it" />
+
+            <RadioButton
+                android:id="@+id/rdBtnRegisterNo"
+                android:textColor="@color/textColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I may miss it" />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/textColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How many of you?*"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spnrRegisterPeopleCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/textColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Relation*"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spnrRegisterRelation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edtTxtRegisterMessage"
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:hint="Your Message"
+            android:textColor="@color/textColor"
+            android:inputType="textMultiLine"
+            android:lines="3" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp">
+
+            <Button
+                android:id="@+id/btnRegisterAddMe"
+                android:layout_width="140dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/mybutton"
+                android:onClick="addMe"
+                android:text="Add Me"
+                android:textColor="@color/buttonTextColor" />
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/mybutton"
+                android:onClick="checkMembersList"
+                android:text="Check members list"
+                android:textColor="@color/buttonTextColor" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

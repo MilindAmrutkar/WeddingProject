@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.spottechnician.a12_01_2016weddingproject.FindMore">
+
+    <LinearLayout
+        android:id="@+id/activity_find_more"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp">
+
+        <Button
+            android:id="@+id/btnFindMoreAboutCheckPatrika"
+            android:layout_width="300dp"
+            android:textColor="@color/buttonTextColor"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mybutton"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:onClick="viewPatrika"
+            android:text="View Patrika"
+            android:textSize="20sp" />
+
+        <Button
+            android:textColor="@color/buttonTextColor"
+            android:id="@+id/btnFindMoreAboutGroom"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mybutton"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:onClick="brideGroomActivity"
+            android:text="About BrideGroom"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/btnFindMoreAboutBride"
+            android:textColor="@color/buttonTextColor"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mybutton"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:onClick="brideActivity"
+            android:text="About Bride"
+            android:textSize="20sp" />
+
+
+
+
+        <Button
+            android:textColor="@color/buttonTextColor"
+            android:id="@+id/btnFindMoreResidencialAddress"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mybutton"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:onClick="residenceDetailsActivity"
+            android:text="Residential Address"
+            android:textSize="20sp" />
+
+
+
+        <Button
+            android:textColor="@color/buttonTextColor"
+            android:id="@+id/btnFindMoreMarriageLoc"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mybutton"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:onClick="marriageLocActivity"
+            android:text="Marriage Location"
+            android:textSize="20sp" />
+
+        <Button
+            android:textColor="@color/buttonTextColor"
+            android:id="@+id/btnFindMoreReceptionLoc"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mybutton"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:onClick="receptionLocActivity"
+            android:text="Reception Location"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:textColor="@color/buttonTextColor"
+            android:id="@+id/btnFindMoreWhosAttending"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mybutton"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:onClick="attendingActivity"
+            android:text="See who's attending"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+</ScrollView>

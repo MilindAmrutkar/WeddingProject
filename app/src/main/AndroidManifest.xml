@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.spottechnician.a12_01_2016weddingproject">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AttendingRegistration" android:screenOrientation="portrait"/>
+        <activity android:name=".FindMore" android:screenOrientation="portrait"/>
+        <activity android:name=".BrideDetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".GroomDetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ResidenceAddressActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".MarriageLocActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ReceptionLocActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".WhosAttendingListActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ViewPatrikaActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".SingleViewActivity" android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
